@@ -69,5 +69,5 @@ def add_s(array)
   end
 end
 
-add_s([])
+add_s(["hand","feet", "knee", "table"])
 
