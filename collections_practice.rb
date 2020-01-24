@@ -39,7 +39,15 @@ def kesha_maker(array)
   end
 end
 
-kesha_maker([])
+kesha_maker(["blake", "ashley", "scott"])
+
+def find_a(array)
+  array.select do |item|
+    item[0] == "a"
+  end
+end
+
+fina_a([])
 
 
 
