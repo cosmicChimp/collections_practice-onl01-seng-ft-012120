@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort
 end
@@ -70,4 +72,4 @@ def add_s(array)
 end
 
 add_s(["hand","feet", "knee", "table"])
-
+binding.pry
