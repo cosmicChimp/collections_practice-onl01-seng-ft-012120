@@ -57,7 +57,17 @@ def sum_array(array)
   sum
 end
 
-sum_array([])
+sum_array([11,4,7,8,9,100,134])
 
+def add_s(array)
+  array.collect do |each|
+    if array[1] == each
+      word
+    else
+      word + "s"
+    end
+  end
+end
 
+add_s([])
 
